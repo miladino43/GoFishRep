@@ -42,7 +42,31 @@ public class Card {
 		public int getRank() {
 			return rank;
 		}
-		
+		public String getStringRank(){
+			String temp;
+			int tempRank = getRank();
+			switch (tempRank) {
+			case 11:
+				temp = "J";
+				break;
+			case 12:
+				temp = "Q";
+				break;
+			case 13:
+				temp = "K";
+				break;
+			case 14:
+				temp = "A";
+				break;
+				
+			default:
+				temp = Integer.toString(tempRank);
+				break;
+			}
+			
+			return temp;
+			
+		}
 
 	}
 

@@ -1125,13 +1125,15 @@ containing a value of this type.
         public static final int card413=0x7f02008a;
         public static final int card414=0x7f02008b;
         public static final int card_back=0x7f02008c;
-        public static final int ic_launcher=0x7f02008d;
-        public static final int pink_button=0x7f02008e;
-        public static final int play_button_down=0x7f02008f;
-        public static final int play_button_up=0x7f020090;
-        public static final int title_gofish=0x7f020091;
+        public static final int gameover=0x7f02008d;
+        public static final int ic_launcher=0x7f02008e;
+        public static final int pink_button=0x7f02008f;
+        public static final int play_button_down=0x7f020090;
+        public static final int play_button_up=0x7f020091;
+        public static final int title_gofish=0x7f020092;
     }
     public static final class id {
+        public static final int YourHand=0x7f050046;
         public static final int action_bar=0x7f05001c;
         public static final int action_bar_activity_content=0x7f050015;
         public static final int action_bar_container=0x7f05001b;
@@ -1162,6 +1164,7 @@ containing a value of this type.
         public static final int end=0x7f050013;
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002c;
+        public static final int gofish=0x7f050047;
         public static final int home=0x7f050014;
         public static final int homeAsUp=0x7f050005;
         public static final int icon=0x7f05002a;
@@ -1169,6 +1172,7 @@ containing a value of this type.
         public static final int image=0x7f050027;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050029;
+        public static final int message=0x7f050045;
         public static final int middle=0x7f050012;
         public static final int never=0x7f050009;
         public static final int none=0x7f050010;
@@ -1254,7 +1258,8 @@ containing a value of this type.
         public static final int abc_simple_decor=0x7f030017;
         public static final int choose_rank_dialog=0x7f030018;
         public static final int computer_question_dialog=0x7f030019;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001a;
+        public static final int goldfish_layout=0x7f03001a;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 

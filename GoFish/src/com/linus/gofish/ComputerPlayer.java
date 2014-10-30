@@ -1,9 +1,12 @@
 package com.linus.gofish;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 public class ComputerPlayer {
+	
+	public List<Card> hand = new ArrayList<Card>();
 
 	public int makePlay(List <Card> hand){
 		//pick a random card from the given hand
@@ -20,6 +23,7 @@ public class ComputerPlayer {
 		}
 		return false;
 	}
+	
 	
 	
 
